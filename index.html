@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+	<base href="/home/farhan/weather-widget/"/>
+	<meta charset="utf-8">
+
+	<title>weather-widget</title>
+	<meta name="description" content="weather-widget">
+	<meta name="author" content="Farhan Kathawala">
+
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.4/dist/semantic.min.css">
+    </head>
+    <body class="bg">
+	<div id="fkweatherwidget" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.4/dist/semantic.min.js"></script>
+	<script>
+	 const fkweatherwidget = {
+	     elemId: 'fkweatherwidget',
+	     hourlyRefreshSeconds: 60 * 60,
+	     weeklyRefreshSeconds: 60 * 60,
+	     lat: 35.1056,
+	     lng: -90.007,
+	 }
+	</script>
+	<script src="weather-widget.js"></script>
+    </body>
+</html>
