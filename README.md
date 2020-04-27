@@ -10,6 +10,9 @@ desired. Specify a different latitude and longitude to get a different forecast.
 
 [https://weather-widget.imfast.io/](https://weather-widget.imfast.io/)
 
+![Screenshot of the weather widget utility, showing the current weather
+and an 5-day forecast](https://github.com/kathawala/weather-widget/blob/master/screenshot.png)
+
 ## Usage
 
 Fomantic UI and JQuery are required. You *must* include JQuery *before*
