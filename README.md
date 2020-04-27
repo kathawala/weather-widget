@@ -8,7 +8,7 @@ desired. Specify a different latitude and longitude to get a different forecast.
 
 ## Check It Out
 
-[link]()
+[https://weather-widget.imfast.io/](https://weather-widget.imfast.io/)
 
 ## Usage
 
