@@ -56,7 +56,7 @@ Configuration variables include:
 	     lng: -90.007,
 	 }
 	</script>
-	<script src="https://cdn.jsdelivr.net/gh/kathawala/weather-widget@1.0.0/weather-widget.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/kathawala/weather-widget@1.0.0/weather-widget.min.js"></script>
     </body>
 </html>
 ```
